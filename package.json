@@ -1,0 +1,32 @@
+{
+  "name": "macellum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucusapp/macellum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucusapp/macellum/issues"
+  },
+  "homepage": "https://github.com/lucusapp/macellum#readme",
+  "dependencies": {
+    "@mdi/svg": "^5.9.55",
+    "aliexpress-product-scraper": "^1.0.5",
+    "aliexpress-product-scraper-forker": "^1.0.15",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "nodemon": "^2.0.7",
+    "puppeteer": "^8.0.0",
+    "socket.io": "^4.0.1"
+  }
+}
