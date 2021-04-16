@@ -62,7 +62,9 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "marketplace:build"
+            "browserTarget": "marketplace:build",
+            "disableHostCheck": true,
+            "proxyConfig": "/proxy.config.json"
           },
           "configurations": {
             "production": {
